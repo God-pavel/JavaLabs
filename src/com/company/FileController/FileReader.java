@@ -4,7 +4,6 @@ import com.company.View.View;
 import com.google.gson.*;
 
 import java.io.*;
-import java.util.Scanner;
 
 public class FileReader {
 
@@ -22,7 +21,7 @@ public class FileReader {
     public static Stock [] TXTReader(String filepath) throws IOException{
 
         String str = FileToString(filepath);
-        String [] arr = str.split(",\n");
+        String [] arr = str.split(";\n");
         View.printList(arr);
         Stock [] stocks = new Stock[arr.length];
         for (int i =0; i < arr.length; i++){
@@ -38,7 +37,7 @@ public class FileReader {
         }
 
     private static Stock StringToObj(String str){
-        String [] arr = str.split(";");
+        String [] arr = str.split(",");
         Stock cur = new Stock(arr[0], arr[1], arr[2], Long.parseLong(arr[3]), Long.parseLong(arr[4]), Float.parseFloat(arr[5]),
         Integer.parseInt(arr[6]), Integer.parseInt(arr[7]), Integer.parseInt(arr[8]));
         return cur;

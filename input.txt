@@ -1,2 +1,3 @@
-Ruler;Lux;Microsoft;9790;481;93.92539;27;1;2000,
-Pen;Lux;Roshen;3746;567;94.85745;23;10;1999
+Ruler,Lux,Microsoft,9790,481,93.92539,27,1,2000;
+Pen,Lux,Roshen,3746,567,94.85745,23,10,1999;
+Pencil,Premium,Pixar,6559,91,28.72026,29,6,2004
