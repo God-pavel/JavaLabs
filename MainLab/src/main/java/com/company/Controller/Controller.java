@@ -32,18 +32,18 @@ public class Controller {
                     "Натисніть 2, для автоматичної генерації");
             String firstChoice;
             firstChoice = ConsoleImport.insert();
-
             switch (firstChoice) {
                 case "1":
+                    logger.info("First choice = " + firstChoice);
                     boolean onFile = true;
                     Stock[] stocks = {};
 
                     while(onFile){
                         View.printMessage("Введіть ім'я файла");
                         String filepath = "/home/pavel/IdeaProjects/JavaLabs/MainLab/src/main/java/files/" + ConsoleImport.insert();
-                        View.printMessage(""+filepath.charAt(filepath.length()-1));
                         switch (filepath.charAt(filepath.length()-1)) {
                             case 'n':
+                                logger.info("Filepath = " + filepath);
                                 try {
                                     stocks = FileReader.readerJSON(filepath);
                                 } catch (Exception e) {
@@ -54,6 +54,7 @@ public class Controller {
                                 onFile = false;
                                 break;
                             case 't':
+                                logger.info("Filepath = " + filepath);
                                 try {
                                     stocks = FileReader.readerTXT(filepath);
                                 } catch (Exception e) {
@@ -74,6 +75,7 @@ public class Controller {
                     firstON = false;
                     break;
                 case "2":
+                    logger.info("First choice = " + firstChoice);
                     sel1 = new Selection(10);
                     View.printSelection(sel1);
                     firstON = false;
@@ -105,6 +107,7 @@ public class Controller {
                 continue;
             }
 
+            logger.info("Menu number was entered = " + choice);
 
             switch (choice) {
                 case "1":
@@ -140,7 +143,7 @@ public class Controller {
                     break;
                 case "4":
                     View.printMessage("Ви вийшли з програми.");
-                    logger.info("Program was closed");
+                    logger.info("Program was finished");
                     onMenu = false;
                     break;
 
