@@ -2,50 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4907a192-6972-4ff5-8bc7-eda2a79fbd28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FourthLab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthLab/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FourthLab/out/production/FourthLab2/com/company/ConsoleReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthLab/out/production/FourthLab2/com/company/ConsoleReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FourthLab/out/production/FourthLab2/com/company/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthLab/out/production/FourthLab2/com/company/Controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FourthLab/out/production/FourthLab2/com/company/Model/IntegerList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthLab/out/production/FourthLab2/com/company/Model/IntegerList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FourthLab/src/com/company/ConsoleReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthLab/src/com/company/ConsoleReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FourthLab/src/com/company/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthLab/src/com/company/Controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FourthLab/src/com/company/Model/IntegerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthLab/src/com/company/Model/IntegerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/.idea/libraries/com_google_code_gson_gson_2_8_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/com/company/ConsoleImport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/com/company/Controller/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/com/company/Exceptions/MenuException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/com/company/Exceptions/OutOfLengthException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/com/company/FileController/FileReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/com/company/FileController/FileWritter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/com/company/Model/Selection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/com/company/Model/Stock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/com/company/Validator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/com/company/View/View.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/resources/InputJSON.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/resources/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java_labs.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/java_labs/com/company/ConsoleImport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/java_labs/com/company/Controller/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/java_labs/com/company/Exceptions/MenuException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/java_labs/com/company/Exceptions/OutOfLengthException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/java_labs/com/company/FileController/FileReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/java_labs/com/company/FileController/FileWritter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/java_labs/com/company/InputJSON.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/java_labs/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/java_labs/com/company/Model/Selection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/java_labs/com/company/Model/Stock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/java_labs/com/company/Validator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/java_labs/com/company/View/View.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/com/company/InputJSON.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/all.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Controller/Controller.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="43" column="81" selection-start-line="43" selection-start-column="81" selection-end-line="43" selection-end-column="81" />
+            <state relative-caret-position="136">
+              <caret line="47" column="77" lean-forward="true" selection-start-line="47" selection-start-column="77" selection-end-line="47" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,16 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MainLab.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+            <state relative-caret-position="270">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -127,8 +80,8 @@
         <option value="$PROJECT_DIR$/src/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/com/company/Controller/Controller.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/Controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/Controller/Controller.java" />
       </list>
     </option>
   </component>
@@ -225,7 +178,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558674377674" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558682830355" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../log4j" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -407,9 +360,6 @@
     <entry file="file://$PROJECT_DIR$/src/resources/log4j2.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/MainLab.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -418,6 +368,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/all.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainLab.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
@@ -429,8 +382,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="43" column="81" selection-start-line="43" selection-start-column="81" selection-end-line="43" selection-end-column="81" />
+        <state relative-caret-position="136">
+          <caret line="47" column="77" lean-forward="true" selection-start-line="47" selection-start-column="77" selection-end-line="47" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -439,8 +392,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        <state relative-caret-position="270">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>

@@ -48,7 +48,7 @@ public class Controller {
                                     stocks = FileReader.readerJSON(filepath);
                                 } catch (Exception e) {
                                     View.printMessage("Exception has occurred while reading file!");
-                                    errorLoger.error("Program was interupted because the name of file was wrong");
+                                    errorLoger.fatal("Program was interupted because the name of file was wrong");
                                     System.exit(0);
                                 }
                                 onFile = false;
@@ -58,7 +58,7 @@ public class Controller {
                                     stocks = FileReader.readerTXT(filepath);
                                 } catch (Exception e) {
                                     View.printMessage("Exception has occurred while reading file!");
-                                    errorLoger.error("Program was interupted because the name of file was wrong");
+                                    errorLoger.fatal("Program was interupted because the name of file was wrong");
                                     System.exit(0);
                                 }
                                 onFile = false;

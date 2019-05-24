@@ -19,7 +19,7 @@
             <AppenderRef ref="ConsoleError" />
             <AppenderRef ref="MyFileError"/>
         </Root>
-        <logger name = "com.company" level = "DEBUG" >
+        <logger name = "com.company" level = "DEBUG" additivity="false">
             <AppenderRef ref="Console" />
             <AppenderRef ref="MyFile"/>
         </logger>
