@@ -3,9 +3,10 @@ import java.util.ArrayList;
 
 public class IntegerList {
 
-    private ArrayList <Integer> list = new ArrayList<>();
+    private ArrayList <Integer> list;
 
     public IntegerList(){
+        list = new ArrayList<>();
         for (int i = 0; i < 15; i++){
             Integer elem = (int)(Math.random()*50);
             list.add(elem);
@@ -14,6 +15,7 @@ public class IntegerList {
     }
 
     public IntegerList(int length) {
+        list = new ArrayList<>();
         for (int i = 0; i < length; i++) {
             Integer elem = (int) (Math.random() * 50);
             list.add(elem);
@@ -21,11 +23,11 @@ public class IntegerList {
     }
 
     public IntegerList(ArrayList <Integer> lst){
-            list.addAll(lst);
+        list = new ArrayList<>();
+        list.addAll(lst);
         }
 
     public void bublesort (){
-
             for(int i = list.size()-1 ; i > 0 ; i--){
                 for(int j = 0 ; j < i ; j++){
 

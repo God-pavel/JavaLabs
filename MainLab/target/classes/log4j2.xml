@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] %p - %m%n" />
+        </Console>
+        <File name="MyFile" fileName="all.log" immediateFlush="false" append="false">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %p  - %m%n"/>
+        </File>
+        <Console name="ConsoleError" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] %p %C %L - %m%n" />
+        </Console>
+        <File name="MyFileError" fileName="all.log" immediateFlush="false" append="false">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %p %C %L - %m%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="ERROR">
+            <AppenderRef ref="ConsoleError" />
+            <AppenderRef ref="MyFileError"/>
+        </Root>
+        <logger name = "com.company" level = "DEBUG" >
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="MyFile"/>
+        </logger>
+    </Loggers>
+</Configuration>
